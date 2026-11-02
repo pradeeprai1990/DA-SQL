@@ -18,7 +18,7 @@ alter table students rename column studentGender to stuGender;
 alter table students modify column  stuGender varchar(30) not null;
 alter table students add column stdStatus tinyint default(1);
 truncate table students;
-truncate table students;
+truncate table students as s;
 
 
 
